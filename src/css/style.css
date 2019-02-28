@@ -1,0 +1,66 @@
+*{
+  font-family: 'Raleway', sans-serif;
+  padding: 0;
+  margin: 0;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html{
+  background-repeat: no-repeat;
+ height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image:
+   linear-gradient(
+     rgba(0, 0, 0, 0.7),
+     rgba(0, 0, 0, 0.7)
+   ),
+   url('https://images3.alphacoders.com/650/thumb-1920-650706.jpg');
+}
+
+.usd, .brl{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  text-align: center;
+  background-color: rgba(0, 144, 0, 0.5);
+  font-size: 20px;
+  width: 300px;
+  height: 44px;
+
+  float: left;
+
+}
+
+.usd{margin-right: 10px;}
+
+.container{
+    border: 3px solid green;
+    border-radius: 5px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 100px;
+}
+
+input{
+  color: #fff;
+  border: none;
+  box-sizing: border-box;
+  float: right;
+  text-align: center;
+  outline: none;
+  background-color: rgba(0,0,0,0.2);
+  font-size: 20px;
+  padding: 10px;
+  width: 70%;
+  transition: width 0.5s;
+
+}
+input:hover{
+  width: 75%;
+}
